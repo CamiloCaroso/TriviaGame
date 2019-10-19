@@ -3,10 +3,30 @@
     <head>
         <title>TriviaGame</title>
         <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
-        
-
+        <div id="container">
+            <h1 id="title">Trivia Game</h1>
+            <div id="tText">Time Left:</div>
+            <div id="timer"></div>
+            <div id="start">Start</div>
+            <p id="question"></p>
+            <div id="q-container">
+                <div class="q" id="q1r"></div>
+                <div class="q" id="q2r"></div>
+                <div class="q" id="q3r"></div>
+                <div class="q" id="q4r"></div>
+            </div>
+            <div id="happen"></div>
+            <a href="#" id="next">Next Question -></a>
+            <a href="#" id="restard">Restard</a>
+            <div id="cAnswer">Correct<div id="correctAnswers"></div></div>
+            <div id="tAnswer">Time Out<div id="timeOutAnswers"></div></div>
+            <div id="iAnswer">Incorrect<div id="incorrectAnswers"></div></div>
+        </div>
+    
         <script src="assets/javascript/app.js"></script>
+
     </body>
 </html>

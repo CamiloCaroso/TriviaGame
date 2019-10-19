@@ -1,0 +1,193 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: gray;
+}
+#container{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: white;
+    padding: 50px;
+    box-shadow: 0px 0px 40px 1px black;
+    border-radius: 10px;
+    height: 100px;
+
+}
+h1{
+    margin-top: 0px;
+    text-align: center;
+    
+}
+#tText{
+    position: absolute;
+    top: 65px;
+    left: 65%;
+    display: none;
+}
+#timer{
+    position: absolute;
+    top: 45px;
+    left: 75%;
+    font-size: 40px;
+    display: none;
+    
+}
+p{
+    margin-top: 30px;
+    display: none;
+}
+#start{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    top: 130px;
+    border: solid 1px #dbdbdb;
+    padding: 10px;
+    user-select: none;
+    transition: 0.3s;
+
+     
+}
+#happen{
+    
+    position: absolute;
+    left: 50%;
+    top: 310px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#next{
+    display: none;
+    position: absolute;
+    left: 80%;
+    top: 310px;
+    transform: translate(-50%, -50%);
+}
+
+#start:hover{
+    background:#dbdbdb;
+}
+#start:active{
+    background: grey;
+}
+
+ #q-container{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    display: none;
+}
+
+.q{
+    color: grey;
+    display: inline-block;
+    background: white;
+    border: solid 1px #dbdbdb;
+    width: 46%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    user-select: none;
+    
+}
+#q1r{
+    position: absolute;
+    left: 0px;
+    transition: 0.3s;
+}
+#q2r{
+    position: absolute;
+    right: 0px;
+    transition: 0.3s;
+}
+#q3r{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.3s;
+}
+#q4r{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transition: 0.3s;
+}
+
+#q1r:hover, #q2r:hover, #q3r:hover, #q4r:hover{
+    background: #dbdbdb;
+    color: white;
+    
+    
+}
+#q1r:active, #q2r:active, #q3r:active, #q4r:active{
+    background: #4d4d4d;
+    
+    
+    
+}
+
+#cAnswer{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    border: solid 1px #dbdbdb;
+    padding: 5px;
+    left: 35%;
+    top: 190px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#tAnswer{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    border: solid 1px #dbdbdb;
+    padding: 5px;
+    left: 50%;
+    top: 190px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#iAnswer{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    border: solid 1px #dbdbdb;
+    padding: 5px;
+    left: 65%;
+    top: 190px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#next{
+    color: grey;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#next:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#restard{
+    position: absolute;
+    left: 50%;
+    top: 280px;
+    transform: translate(-50%, -50%);
+    color: grey;
+    text-decoration: none;
+    transition: 0.3s;
+    display: none;
+
+}
+
+#restard:hover{
+    text-decoration: underline;
+    color: black;
+}
